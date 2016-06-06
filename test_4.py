@@ -7,7 +7,7 @@ class TestAnagrammAndCountLetters(unittest.TestCase):
         result = greeter('Peter')
         self.assertEqual('Hello, Peter!', result)
 
-    def test_empty_name_failed_result(self):
+    def test_empty_name_correct_result(self):
         result = greeter('')
         self.assertEqual('Hello, Mr Nobody!', result)
 
